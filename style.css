@@ -1,0 +1,56 @@
+body {
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa {
+  display: flex;
+  border-radius: 5px;
+  background-color: #999;
+
+  width: 300px;
+  height: 300px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.tentativa {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: black;
+
+}
+
+.resultado {
+  color: aliceblue;
+
+}
+
+.mensagem {
+  background-color: aqua;
+  font-size: 20px;
+}
+
+.botao:hover {
+  background-color: greenyellow;
+}
+
+.botao {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: cadetblue;
+}
+
+body {
+  background-color: black;
+}
